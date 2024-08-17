@@ -22,13 +22,17 @@
     <p>
         Aprendendo a usar DOM em JS
     </p>
-    <div>
+    <div id="msg">
         Clique me mim
     </div>
 
     <script>
 
+        var p1 = document.getElementsByTagName('p') [0]
+        document.write(p1.innerText)
 
+        var d =document.querySelector('div#msg')
+        d.style.background = 'black'
 
     </script>
 </body>
